@@ -599,7 +599,7 @@ public:
 };
 
 // Store A  
-static void Store() {
+void Store() {
 	Medicine A{};
 	cout << "------------------------" << endl;
 	cout << "Storing In the Storage" << endl;
@@ -645,7 +645,7 @@ static void Store() {
 	}
 }
 
-static void SearhMedicine() {
+void SearhMedicine() {
 	//Searching  from the file  
 	string num;
 	cout << "Enter the Serial No of the Medicine you want to search?" << endl;
@@ -683,7 +683,7 @@ static void SearhMedicine() {
 int main() {
 	char MainSelection;
 	do {
-		cout << "1)Press 1 to Store." << endl;
+		cout << "1)Press 1 to Store Medicine." << endl;
 		cout << "2)Press 2 to Search for a Medicine in the Storage." << endl;
 		cout << "7)Press E/e to exit the program." << endl;
 		cin >> MainSelection;
